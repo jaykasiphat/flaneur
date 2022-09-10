@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: "Mount Fuji",
     location: "Japan",
     googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -10,6 +11,7 @@ export default [
     imageUrl: "https://source.unsplash.com/WLxQvbMyfas",
   },
   {
+    id: 2,
     title: "Lake Thun",
     location: "Switzerland",
     googleMapsUrl: "https://goo.gl/maps/FfbKQ6edkoYCriRh9",
@@ -20,6 +22,7 @@ export default [
     imageUrl: "https://source.unsplash.com/1XLyzi17Z2M",
   },
   {
+    id: 3,
     title: "Neuschwanstein Castle",
     location: "Germany",
     googleMapsUrl: "https://goo.gl/maps/PcpQvhQ2Zv6f7hcDA",

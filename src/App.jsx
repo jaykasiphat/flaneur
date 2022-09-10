@@ -4,9 +4,8 @@ import Card from "./components/Card";
 
 export default function App() {
   const cards = data.map((log) => {
-    return <Card {...log} />;
-  });
-  console.log(cards);
+    return <Card key={log.id} {...log} />;
+  });  
 
   return (
     <div className="App">
