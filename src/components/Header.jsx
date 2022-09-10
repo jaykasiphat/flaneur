@@ -1,5 +1,7 @@
 export default function Header() {
-  <header>
-    <p>Flaneur. A Travel Log.</p>
-  </header>
+  return (
+    <header>
+      <p>Flaneur. A Travel Log.</p>
+    </header>
+  );
 }
