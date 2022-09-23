@@ -1,7 +1,7 @@
 export default function Card(props) {
   return (
     <section className="card">
-      <img src={props.imageUrl} />
+      <img src={props.imageUrl} className="card--img" alt={props.title}/>
       <div className="card--details">
         <p>
           <span>{props.location}</span>
