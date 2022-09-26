@@ -8,9 +8,7 @@ export default function Card(props) {
         <p>
           <img src={pinIcon} alt="location icon" className="card--icon--pin" />
           <span className="card--location">{props.location}</span>
-          <span>
-            <a href={props.googleMapsUrl} className="card--link">View on Google Maps</a>
-          </span>
+          <a href={props.googleMapsUrl} className="card--link">View on Google Maps</a>
         </p>
         <h2 className="card--title">{props.title}</h2>
         <p className="card--dates">{props.startDate} - {props.endDate}</p>
